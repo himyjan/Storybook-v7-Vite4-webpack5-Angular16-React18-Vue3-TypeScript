@@ -1,0 +1,25 @@
+{
+  "name": "storybook-webpack5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "sb dev -p 6006",
+    "dev": "sb dev -p 6006",
+    "build": "sb build",
+    "storybook": "sb dev -p 6006",
+    "build-storybook": "sb build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@mdx-js/react": "^2.1.5",
+    "@storybook/addon-essentials": "^7.0.0-alpha.37",
+    "@storybook/addon-interactions": "^7.0.0-alpha.37",
+    "@storybook/addon-links": "^7.0.0-alpha.37",
+    "@storybook/mdx2-csf": "^0.0.4-canary.15.78a83b5.0",
+    "@storybook/react": "^7.0.0-alpha.37",
+    "@storybook/react-webpack5": "^7.0.0-alpha.37",
+    "@storybook/testing-library": "^0.0.13",
+    "storybook": "^7.0.0-alpha.37"
+  }
+}

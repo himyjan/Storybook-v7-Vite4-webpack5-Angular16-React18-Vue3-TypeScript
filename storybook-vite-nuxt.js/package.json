@@ -1,0 +1,25 @@
+{
+  "name": "storybook-vite-nuxtjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "sb dev -p 6006",
+    "dev": "sb dev -p 6006",
+    "build": "sb build",
+    "storybook": "sb dev -p 6006",
+    "build-storybook": "sb build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-alpha.37",
+    "@storybook/addon-interactions": "^7.0.0-alpha.37",
+    "@storybook/addon-links": "^7.0.0-alpha.37",
+    "@storybook/mdx2-csf": "^0.0.4-canary.15.78a83b5.0",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^7.0.0-alpha.37",
+    "@storybook/vue3-vite": "^7.0.0-alpha.37",
+    "nuxt": "^3.0.0-rc.11",
+    "storybook": "^7.0.0-alpha.37"
+  }
+}
