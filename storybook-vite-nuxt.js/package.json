@@ -11,7 +11,7 @@
     "build-storybook": "sb build"
   },
   "devDependencies": {
-    "@nuxt/ui": "^0.3.3",
+    "@nuxt/ui": "^0.4.0",
     "@storybook/addon-essentials": "^7.0.0-alpha.49",
     "@storybook/addon-interactions": "^7.0.0-alpha.49",
     "@storybook/addon-links": "^7.0.0-alpha.49",
