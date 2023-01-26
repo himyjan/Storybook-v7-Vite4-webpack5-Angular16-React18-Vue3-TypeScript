@@ -21,6 +21,6 @@
     "@storybook/react-vite": "^7.0.0-alpha.49",
     "@storybook/testing-library": "^0.0.13",
     "storybook": "^7.0.0-alpha.49",
-    "vite": "^3.2.4"
+    "vite": "^4.0.0"
   }
 }
