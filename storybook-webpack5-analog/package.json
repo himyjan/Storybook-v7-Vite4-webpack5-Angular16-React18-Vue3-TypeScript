@@ -43,7 +43,7 @@
     "storybook": "^7.0.0-alpha.49",
     "typescript": "^4.9.3",
     "vite": "^3.2.4",
-    "vitest": "^0.25.2"
+    "vitest": "^0.28.0"
   },
   "overrides": {
     "@analogjs/vite-plugin-angular": {
