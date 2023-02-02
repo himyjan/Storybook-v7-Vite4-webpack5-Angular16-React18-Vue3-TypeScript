@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-app": {
+    "analog-app": {
       "projectType": "application",
       "root": "",
       "sourceRoot": "src",
@@ -30,16 +30,16 @@
           "builder": "@nrwl/vite:dev-server",
           "defaultConfiguration": "development",
           "options": {
-            "buildTarget": "my-app:build",
+            "buildTarget": "analog-app:build",
             "port": 5173
           },
           "configurations": {
             "development": {
-              "buildTarget": "my-app:build:development",
+              "buildTarget": "analog-app:build:development",
               "hmr": true
             },
             "production": {
-              "buildTarget": "my-app:build:production"
+              "buildTarget": "analog-app:build:production"
             }
           }
         },
@@ -47,6 +47,36 @@
           "builder": "@nrwl/vite:test",
           "options": {
             "config": "vite.config.ts"
+          }
+        },
+        "storybook": {
+          "builder": "@storybook/angular:start-storybook",
+          "options": {
+            "configDir": ".storybook",
+            "browserTarget": "analog-app:build",
+            "compodoc": true,
+            "compodocArgs": [
+              "-e",
+              "json",
+              "-d",
+              "."
+            ],
+            "port": 6006
+          }
+        },
+        "build-storybook": {
+          "builder": "@storybook/angular:build-storybook",
+          "options": {
+            "configDir": ".storybook",
+            "browserTarget": "analog-app:build",
+            "compodoc": true,
+            "compodocArgs": [
+              "-e",
+              "json",
+              "-d",
+              "."
+            ],
+            "outputDir": "storybook-static"
           }
         }
       }
