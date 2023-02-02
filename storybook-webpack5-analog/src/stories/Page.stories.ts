@@ -1,4 +1,4 @@
-import { moduleMetadata, StoryFn, Meta } from '@storybook/angular';
+import { moduleMetadata, Story, Meta } from '@storybook/angular';
 import { within, userEvent } from '@storybook/testing-library';
 import { CommonModule } from '@angular/common';
 
@@ -10,7 +10,7 @@ export default {
   title: 'Example/Page',
   component: Page,
   parameters: {
-    // More on StoryFn layout: https://storybook.js.org/docs/angular/configure/story-layout
+    // More on Story layout: https://storybook.js.org/docs/angular/configure/story-layout
     layout: 'fullscreen',
   },
   decorators: [
@@ -21,7 +21,7 @@ export default {
   ],
 } as Meta;
 
-const Template: StoryFn<Page> = (args: Page) => ({
+const Template: Story<Page> = (args: Page) => ({
   props: args,
 });
 

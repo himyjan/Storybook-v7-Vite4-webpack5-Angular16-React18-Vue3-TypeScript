@@ -11,14 +11,14 @@
     "build-storybook": "sb build"
   },
   "devDependencies": {
-    "@mdx-js/react": "^2.1.5",
-    "@storybook/addon-essentials": "^7.0.0-alpha.49",
-    "@storybook/addon-interactions": "^7.0.0-alpha.49",
-    "@storybook/addon-links": "^7.0.0-alpha.49",
-    "@storybook/mdx2-csf": "^0.1.0-next.5",
-    "@storybook/react": "^7.0.0-alpha.49",
-    "@storybook/react-webpack5": "^7.0.0-alpha.49",
-    "@storybook/testing-library": "^0.0.13",
-    "storybook": "^7.0.0-alpha.49"
+    "@mdx-js/react": "^2.2.1",
+    "@storybook/addon-essentials": "^7.0.0-beta.40",
+    "@storybook/addon-interactions": "^7.0.0-beta.40",
+    "@storybook/addon-links": "^7.0.0-beta.40",
+    "@storybook/mdx2-csf": "^0.1.0-next.8",
+    "@storybook/react": "^7.0.0-beta.40",
+    "@storybook/react-webpack5": "^7.0.0-beta.40",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "storybook": "^7.0.0-beta.40"
   }
 }
