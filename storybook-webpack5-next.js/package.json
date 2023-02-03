@@ -1,8 +1,8 @@
 {
-  "name": "storybook-webpack5",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "storybook-vite-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "start": "storybook dev -p 6006",
     "dev": "storybook dev -p 6006",
@@ -11,15 +11,20 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@mdx-js/react": "^2.2.1",
     "@storybook/addon-essentials": "^7.0.0-beta.41",
     "@storybook/addon-interactions": "^7.0.0-beta.41",
     "@storybook/addon-links": "^7.0.0-beta.41",
-    "@storybook/mdx2-csf": "^0.1.0-next.8",
+    "@storybook/blocks": "^7.0.0-beta.41",
+    "@storybook/nextjs": "^7.0.0-beta.41",
     "@storybook/react": "^7.0.0-beta.41",
-    "@storybook/react-webpack5": "^7.0.0-beta.41",
     "@storybook/testing-library": "^0.0.14-next.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "storybook": "^7.0.0-beta.41",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  },
+  "dependencies": {
+    "next": "^13.1.6"
   }
 }
