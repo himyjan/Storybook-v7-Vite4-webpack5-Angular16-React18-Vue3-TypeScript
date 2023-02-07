@@ -11,14 +11,14 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.0-beta.41",
-    "@storybook/addon-interactions": "^7.0.0-beta.41",
-    "@storybook/addon-links": "^7.0.0-beta.41",
+    "@storybook/addon-essentials": "^7.0.0-beta.43",
+    "@storybook/addon-interactions": "^7.0.0-beta.43",
+    "@storybook/addon-links": "^7.0.0-beta.43",
     "@storybook/mdx2-csf": "^0.1.0-next.8",
     "@storybook/testing-library": "^0.0.14-next.1",
-    "@storybook/vue3": "^7.0.0-beta.41",
-    "@storybook/vue3-vite": "^7.0.0-beta.41",
-    "storybook": "^7.0.0-beta.41",
+    "@storybook/vue3": "^7.0.0-beta.43",
+    "@storybook/vue3-vite": "^7.0.0-beta.43",
+    "storybook": "^7.0.0-beta.43",
     "typescript": "^4.9.5"
   }
 }
