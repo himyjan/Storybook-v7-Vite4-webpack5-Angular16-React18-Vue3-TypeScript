@@ -11,22 +11,22 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@mdx-js/react": "^2.2.1",
-    "@storybook/addon-essentials": "^7.0.0-beta.44",
-    "@storybook/addon-interactions": "^7.0.0-beta.44",
-    "@storybook/addon-links": "^7.0.0-beta.44",
-    "@storybook/builder-vite": "^7.0.0-beta.44",
+    "@mdx-js/react": "^2.3.0",
+    "@storybook/addon-essentials": "^7.0.0-beta.54",
+    "@storybook/addon-interactions": "^7.0.0-beta.54",
+    "@storybook/addon-links": "^7.0.0-beta.54",
+    "@storybook/builder-vite": "^7.0.0-beta.54",
     "@storybook/mdx2-csf": "^0.1.0-next.8",
-    "@storybook/react": "^7.0.0-beta.44",
-    "@storybook/react-vite": "^7.0.0-beta.44",
+    "@storybook/react": "^7.0.0-beta.54",
+    "@storybook/react-vite": "^7.0.0-beta.54",
     "@storybook/testing-library": "^0.0.14-next.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.0.0-beta.44",
+    "storybook": "^7.0.0-beta.54",
     "typescript": "^4.9.5",
-    "vite": "^4.1.1"
+    "vite": "^4.1.4"
   },
   "dependencies": {
-    "next": "^13.1.6"
+    "next": "^13.2.1"
   }
 }
