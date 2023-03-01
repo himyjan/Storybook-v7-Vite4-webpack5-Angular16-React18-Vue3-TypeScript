@@ -26,7 +26,7 @@
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/platform-server": "^15.2.0",
     "@angular/router": "^15.2.0",
-    "@nrwl/angular": "~15.7.2",
+    "@nrwl/angular": "~15.8.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.5.0",
     "zone.js": "~0.12.0"
@@ -37,7 +37,7 @@
     "@angular/cli": "~15.2.0",
     "@angular/compiler-cli": "^15.2.0",
     "@compodoc/compodoc": "^1.1.19",
-    "@nrwl/vite": "~15.7.2",
+    "@nrwl/vite": "~15.8.0",
     "@storybook/addon-essentials": "^7.0.0-beta.54",
     "@storybook/addon-interactions": "^7.0.0-beta.54",
     "@storybook/addon-links": "^7.0.0-beta.54",
