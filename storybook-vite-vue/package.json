@@ -11,16 +11,16 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.0-rc.1",
-    "@storybook/addon-interactions": "^7.0.0-rc.1",
-    "@storybook/addon-links": "^7.0.0-rc.1",
-    "@storybook/mdx2-csf": "^0.1.0-next.8",
-    "@storybook/testing-library": "^0.0.14-next.1",
-    "@storybook/vue3": "^7.0.0-rc.1",
-    "@storybook/vue3-vite": "^7.0.0-rc.1",
+    "@storybook/addon-essentials": "^7.0.0",
+    "@storybook/addon-interactions": "^7.0.0",
+    "@storybook/addon-links": "^7.0.0",
+    "@storybook/mdx2-csf": "^1.0.0-next.6",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/vue3": "^7.0.0",
+    "@storybook/vue3-vite": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.0.0-rc.1",
-    "typescript": "^5.0.0"
+    "storybook": "^7.0.0",
+    "typescript": "^5.0.3"
   }
 }
