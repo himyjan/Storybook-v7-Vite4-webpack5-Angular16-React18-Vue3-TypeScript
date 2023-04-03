@@ -34,7 +34,7 @@
     "@storybook/addon-links": "^7.0.0",
     "@storybook/angular": "^7.0.0",
     "@storybook/blocks": "^7.0.0",
-    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/testing-library": "^0.1.0",
     "@types/jasmine": "~4.3.1",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.1",
