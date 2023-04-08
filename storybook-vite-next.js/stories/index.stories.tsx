@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ComponentStoryFn, ComponentMeta } from '@storybook/react';
+import type { StoryFn, Meta } from '@storybook/react';
 import { within, userEvent } from '@storybook/testing-library';
 import Home from './index';
 
@@ -10,8 +10,6 @@ export default {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
   },
-} as ComponentMeta<typeof Home>;
+} as Meta<typeof Home>;
 
-const Template: ComponentStoryFn<typeof Home> = (args) => <Home {...args} />;
-
-export const nextHome = Template.bind({});
+export const nextHome = {};

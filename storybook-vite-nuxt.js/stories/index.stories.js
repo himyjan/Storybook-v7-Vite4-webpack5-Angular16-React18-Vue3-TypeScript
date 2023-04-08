@@ -18,4 +18,6 @@ const Template = () => ({
   template: '<my-home />',
 });
 
-export const nuxtHome = Template.bind({});
+export const nuxtHome = {
+  render: Template,
+};

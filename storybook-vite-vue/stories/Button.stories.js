@@ -27,26 +27,37 @@ const Template = (args) => ({
   template: '<my-button v-bind="args" />',
 });
 
-export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/vue/writing-stories/args
-Primary.args = {
-  primary: true,
-  label: 'Button',
+export const Primary = {
+  render: Template,
+
+  args: {
+    primary: true,
+    label: 'Button',
+  },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Button',
+export const Secondary = {
+  render: Template,
+
+  args: {
+    label: 'Button',
+  },
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Button',
+export const Large = {
+  render: Template,
+
+  args: {
+    size: 'large',
+    label: 'Button',
+  },
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
+export const Small = {
+  render: Template,
+
+  args: {
+    size: 'small',
+    label: 'Button',
+  },
 };

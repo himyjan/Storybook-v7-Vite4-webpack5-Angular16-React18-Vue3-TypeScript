@@ -21,14 +21,20 @@ const Template = (args) => ({
   template: '<my-header :user="user" />',
 });
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {
-    name: 'Jane Doe',
+export const LoggedIn = {
+  render: Template,
+
+  args: {
+    user: {
+      name: 'Jane Doe',
+    },
   },
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {
-  user: null,
+export const LoggedOut = {
+  render: Template,
+
+  args: {
+    user: null,
+  },
 };
