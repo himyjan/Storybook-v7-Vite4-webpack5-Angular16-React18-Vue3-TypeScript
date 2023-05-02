@@ -44,7 +44,7 @@
     "@storybook/angular": "^7.0.0",
     "@storybook/blocks": "^7.0.0",
     "@storybook/testing-library": "^0.1.0",
-    "jsdom": "^21.1.1",
+    "jsdom": "^22.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.0.0",
