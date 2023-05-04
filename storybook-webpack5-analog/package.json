@@ -33,8 +33,8 @@
   },
   "devDependencies": {
     "@analogjs/platform": "latest",
-    "@angular-devkit/build-angular": "^15.2.4",
-    "@angular/cli": "~15.2.4",
+    "@angular-devkit/build-angular": "^16.0.0",
+    "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "^16.0.0",
     "@compodoc/compodoc": "^1.1.19",
     "@nrwl/vite": "~16.0.0",
