@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import NuxtWelcome from '../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue';
 
 export default {
