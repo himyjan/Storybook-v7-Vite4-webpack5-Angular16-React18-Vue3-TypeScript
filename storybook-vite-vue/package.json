@@ -15,7 +15,7 @@
     "@storybook/addon-interactions": "^7.0.20",
     "@storybook/addon-links": "^7.0.20",
     "@storybook/mdx2-csf": "^1.1.0",
-    "@storybook/testing-library": "^0.1.0",
+    "@storybook/testing-library": "^0.2.0",
     "@storybook/vue3": "^7.0.20",
     "@storybook/vue3-vite": "^7.0.20",
     "react": "^18.2.0",
