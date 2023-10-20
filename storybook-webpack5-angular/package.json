@@ -34,7 +34,7 @@
     "@storybook/angular": "^7.0.20",
     "@storybook/blocks": "^7.0.20",
     "@storybook/testing-library": "^0.2.0",
-    "@types/jasmine": "~4.6.0",
+    "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.2",
     "karma-chrome-launcher": "~3.2.0",
