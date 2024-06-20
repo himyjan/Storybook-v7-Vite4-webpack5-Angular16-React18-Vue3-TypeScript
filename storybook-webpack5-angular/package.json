@@ -44,6 +44,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^8.0.0",
-    "typescript": "~5.4.0"
+    "typescript": "~5.5.0"
   }
 }
