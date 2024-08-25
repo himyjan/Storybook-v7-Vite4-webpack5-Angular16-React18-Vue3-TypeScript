@@ -48,7 +48,7 @@
     "@storybook/angular": "^8.0.0",
     "@storybook/blocks": "^8.0.0",
     "@storybook/testing-library": "^0.2.2",
-    "jsdom": "^24.0.0",
+    "jsdom": "^25.0.0",
     "nx": "^19.0.0",
     "storybook": "^8.0.0",
     "typescript": "~5.5.0",
